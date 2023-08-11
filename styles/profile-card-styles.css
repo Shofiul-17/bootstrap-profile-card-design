@@ -1,0 +1,113 @@
+
+body{
+    background: #ddd;
+    /* background: pink; */
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #6201f4, #f106d6cb);
+    margin: 50px 65px 0 65px;
+    padding: 15px;
+}
+.profile-area{
+        background: red;
+        /* padding: 20px 0; */
+}
+.card{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: yellow;
+}
+.card-body{
+    background-color: #6201f4;
+}
+.card-img-top{
+    position: absolute;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    /* width: 100%; */
+}
+.img2{
+    position: relative;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    border: 7px solid #fff;
+    margin-top: 125px;
+    vertical-align: middle;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 7px 0 #080b0b;
+}
+.card:hover .img2{
+    border-color: darkcyan;
+    transition: .7s;
+}
+.card-title{
+    font-weight: 900;
+}
+.img22{
+    position: absolute;
+    /* border-radius: 50%; */
+    /* width: 12rem;
+    height: 12rem; */
+    /* border: 7px solid #fff; */
+    /* margin-top: 125px; */
+    /* vertical-align: middle; */
+    /* z-index: 1;
+    left: 150; */
+    top: 265px;
+    left: 630px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    box-shadow: 0 4px 7px 0 #080b0b;
+}
+.card2:hover .img22{
+    border-color: darkcyan;
+    transition: .7s;
+}
+.card-title2{
+    margin-top: 100px;
+    font-weight: 900;
+}
+
+
+.img33{
+    position: absolute;
+    /* border-radius: 50%; */
+    /* width: 12rem;
+    height: 12rem; */
+    /* border: 7px solid #fff; */
+    /* margin-top: 125px; */
+    /* vertical-align: middle; */
+    /* z-index: 1;
+    left: 150; */
+    top: 265px;
+    right: 190px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    box-shadow: 0 4px 7px 0 #080b0b;
+}
+.card3:hover .img3{
+    border-color: darkcyan;
+    transition: .7s;
+}
+.card-title3{
+    margin-top: 100px;
+    font-weight: 900;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    background-image: linear-gradient(to right, #6201f4, #f106d6cb);
+    margin: 0 65px 50px 65px;
+    padding: 10px;
+}
